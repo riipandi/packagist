@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="PHP package repository packagist.org mirror site powered by Cloudflare Workers." />
+        <link rel="icon" type="image/png" href="data:image/png;base64,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" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.2/toastify.min.css" integrity="sha512-ecfz7BsZIyMBMdXTx7GU2128lQ7MTiqGJwAqCumba6v8y7YDhYEHueqy+iUtUdZsnsKhCyoCcFGGMhpwQOy6xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy.min.css" integrity="sha512-HbPh+j4V7pXprvQMt2dtmK/zCEsUeZWYXRln4sOwmoyHPQAPqy/k9lIquKUyKNpNbDGAY06UdiDHcEkBc72yCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Packagist Mirror</title>
+    </head>
+    <body class="bg-gray-50">
+        <section class="pt-10 lg:pt-14">
+            <div class="container px-4 mx-auto">
+                <div class="max-w-4xl mx-auto mb-12 text-center">
+                    <h3 class="mb-4 text-4xl md:text-5xl leading-tight text-gray-900 font-bold tracking-normal">Packagist Mirror</h3>
+                    <p class="text-lg md:text-xl text-gray-500 mt-6 font-medium">This is PHP package repository packagist.org mirror site.</p>
+                    <span class="inline-block py-2 px-4 mt-5 text-xs leading-5 text-orange-500 bg-orange-100 font-medium uppercase rounded-full shadow-sm">Synchronized continuously</span>
+                    <p class="text-base md:text-lg text-gray-500 mt-6 md:mt-8 text-justify">
+                        When <a href="https://getcomposer.org" target="_blank" rel="noreferrer noopener" class="underline decoration-rose-500 decoration-dashed decoration-1 hover:text-orange-500">composer</a>
+                        commands are executed, composer will download information from the packages
+                        that are needed and also from dependent packages. The further you are from the location of
+                        the <a href="https://packagist.org/mirrors" target="_blank" rel="noreferrer noopener" class="underline decoration-rose-500 decoration-dashed decoration-1 hover:text-orange-500">packagist.org</a>
+                        server, the more time is needed to download JSON files. Using a mirror
+                        will help save time for downloading because the server location is closer.
+                    </p>
+                </div>
+                <div class="max-w-4xl mx-auto space-y-8 md:space-y-12">
+                    <div class="group block">
+                        <h2 class="mb-2 text-xl md:text-2xl text-gray-900 font-medium">Enable mirror:</h2>
+                        <div data-clipboard-target="#enable-mirror" id="enable" class="code flex items-center justify-between flex-wrap p-4 bg-gray-50 group-hover:bg-gray-100 rounded-md shadow-md transition duration-200">
+                            <div class="w-full border border-dashed border-2 border-teal-400 py-2 px-4 rounded-md">
+                                <span id="enable-mirror" class="text-sm md:text-lg text-gray-800 group-hover:text-gray-900 font-mono">
+                                    composer config -g repos.packagist composer https://packagist.pages.dev
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group block">
+                        <h2 class="mb-2 text-xl md:text-2xl text-gray-900 font-medium">Disable mirror:</h2>
+                        <div data-clipboard-target="#disable-mirror" id="disable" class="code flex items-center justify-between flex-wrap p-4 bg-gray-50 group-hover:bg-gray-100 rounded-md shadow-md transition duration-200">
+                            <div class="w-full border border-dashed border-2 border-teal-400 py-2 px-4 rounded-md">
+                                <span id="disable-mirror" class="text-sm md:text-lg text-gray-800 group-hover:text-gray-900 font-mono">
+                                    composer config -g --unset repos.packagist
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-4xl mx-auto mt-14 lg:mt-16">
+                    <h2 class="mb-4 text-2xl md:text-3xl leading-tight text-gray-900 font-semibold tracking-normal">Disclaimer</h2>
+                    <p class="text-lg md:text-xl text-gray-500">This site offers its services free of charge and only as a mirror site.</p>
+                    <p class="text-base md:text-lg text-gray-500 mt-4 text-justify">
+                        This site only provides package information / metadata with no distribution file of the packages.
+                        All packages metadata files are mirrored from packagist.org. We do not modify and/or process the
+                        JSON files. If there is something wrong, please disable this mirror and try to refer to the
+                        original <span class="underline decoration-rose-500 decoration-dashed decoration-2">packagist.org</span>.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer class="mt-4">
+            <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+                <div class="text-center mt-8 space-y-3">
+                    <p class="text-base text-gray-400">
+                        Brought to you by <a href="https://s.id/aris" target="_blank" rel="noreferrer noopener" class="underline decoration-rose-500 decoration-dashed decoration-1 hover:text-orange-500">Aris Ripandi</a>.
+                        Licensed under the <a href="https://aris.mit-license.org" target="_blank" rel="noreferrer noopener" class="underline decoration-rose-500 decoration-dashed decoration-1 hover:text-orange-500">MIT license</a>.
+                    </p>
+                    <p class="text-base text-gray-400">
+                        Powered by <a href="https://pages.cloudflare.com" target="_blank" rel="noreferrer noopener" class="underline decoration-rose-500 decoration-dashed decoration-1 hover:text-orange-500">Cloudflare Pages</a>
+                        and <a href="https://workers.cloudflare.com" target="_blank" rel="noreferrer noopener" class="underline decoration-rose-500 decoration-dashed decoration-1 hover:text-orange-500">Cloudflare Workers</a>.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- Load the Javascript library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js" integrity="sha512-PIisRT8mFfdxx99gMs7WAY5Gp+CtjYYxKvF93w8yWAvX548UBNADHu7Qkavgr6yRG+asocqfuk5crjNd5z9s6Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.2/toastify.min.js" integrity="sha512-zrRn+TvTc4KgDOtlKOgThphx1DGCZ8zR/xGWtG/WiKp6G+/xUBWow3p2lWu8DHfdHYWfwvIY0I89b3q22POHSw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha256-2neWyvk1kBWvTs34xsy9U3BupGE5Mqm2+B5ELknV9iY=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy.umd.min.js" integrity="sha512-2TtfktSlvvPzopzBA49C+MX6sdc7ykHGbBQUTH8Vk78YpkXVD5r6vrNU+nOmhhl1MyTWdVfxXdZfyFsvBvOllw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>tippy('.code', { content: 'Click to copy the command' }); (new ClipboardJS('.code')).on('success', function(e) { console.info('Enable', e.text); Toastify({ text: "Copied to clipboard!", duration: 3000, close: false, gravity: "top", position: "center", stopOnFocus: false, }).showToast(); e.clearSelection(); });</script>
+    </body>
+</html>
