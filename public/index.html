@@ -33,7 +33,7 @@
                         <h2 class="mb-2 text-xl md:text-2xl text-gray-900 font-medium">Enable mirror:</h2>
                         <div data-clipboard-target="#enable-mirror" id="enable" class="code flex items-center justify-between flex-wrap p-4 bg-gray-50 group-hover:bg-gray-100 rounded-md shadow-md transition duration-200">
                             <div class="w-full border border-dashed border-2 border-teal-400 py-2 px-4 rounded-md">
-                                <span id="enable-mirror" class="text-sm md:text-lg text-gray-800 group-hover:text-gray-900 font-mono">
+                                <span id="enable-mirror" data-umami-event="Enable Mirror button" class="text-sm md:text-lg text-gray-800 group-hover:text-gray-900 font-mono">
                                     composer config -g repos.packagist composer https://packagist.pages.dev
                                 </span>
                             </div>
@@ -43,7 +43,7 @@
                         <h2 class="mb-2 text-xl md:text-2xl text-gray-900 font-medium">Disable mirror:</h2>
                         <div data-clipboard-target="#disable-mirror" id="disable" class="code flex items-center justify-between flex-wrap p-4 bg-gray-50 group-hover:bg-gray-100 rounded-md shadow-md transition duration-200">
                             <div class="w-full border border-dashed border-2 border-teal-400 py-2 px-4 rounded-md">
-                                <span id="disable-mirror" class="text-sm md:text-lg text-gray-800 group-hover:text-gray-900 font-mono">
+                                <span id="disable-mirror" data-umami-event="Disable Mirror button" class="text-sm md:text-lg text-gray-800 group-hover:text-gray-900 font-mono">
                                     composer config -g --unset repos.packagist
                                 </span>
                             </div>
